@@ -232,6 +232,26 @@ p {
   background: linear-gradient(90deg, #0B0C10 23.96%, rgba(11, 12, 16, 0.8) 54.09%, #0C0C10 77.6%);
 }
 
+.bg-loader {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  background: linear-gradient(225deg, #EA1D22 0%, #B31317 100%);
+}
+
 header {
   width: 100%;
   padding-top: 16px;
