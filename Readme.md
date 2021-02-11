@@ -5,9 +5,14 @@
 
 <h1> FrontWeek - Spiderman Project</h1>
 
+<h2>Sobre o Projeto</h2>
 
+<h3>Linguagens / Frameworks / Bibliotecas</h3>
 
-
+* HTML
+* CSS 
+* SASS
+* HTML 
 
 <h3>Ferramentas</h3>
 
@@ -19,7 +24,7 @@
 <h3>Bibliotecas</h3>
 
 * [SVG Inject](https://github.com/iconfu/svg-inject) - Biblioteca para injetar arquivos SVG. 
-
+* [Google Fonts](https://fonts.google.com/) - Fontes para o projeto.
 
 <h2>Imagens do Projeto</h2>
 
