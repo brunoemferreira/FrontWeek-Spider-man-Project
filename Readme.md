@@ -3,7 +3,6 @@
   <img src="img/spider-man.png" width="400px"/>
 </div>
 
-<h1> 🕷️ FrontWeek - Spiderman Project</h1>
 <!-- ************************************* Baadges ********************************************* -->
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/FrontWeek-Spider-man-Project?color=%2304D361">
@@ -14,7 +13,16 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/FrontWeek-Spider-man-Project">
   </a>
 </p>
+
+<!-- ************************************* Título ********************************************* -->
+
+<h1> 🕷️ FrontWeek - Spiderman Project</h1>
+
+<!-- ************************************* Sobre o projeto ********************************************* -->
+
 <h2>🕸️ Sobre o Projeto</h2>
+
+<p> Descrição sobre o projeto </p>
 
 <h3>📚 Linguagens / Frameworks / Bibliotecas</h3>
 
