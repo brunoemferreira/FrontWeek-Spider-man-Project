@@ -32,4 +32,109 @@ p {
   letter-spacing: 1px;
   line-height: 140%;
 }
+
+header {
+  width: 100%;
+  padding-top: 16px;
+}
+
+.navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  width: 89px;
+  height: 125px;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list li {
+  margin-left: 24px;
+}
+
+.nav-link {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #959698;
+  padding: 8px 16px;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  width: 2px;
+  height: 0px;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 29, 34, 0)), to(#E91D22));
+  background: linear-gradient(180deg, rgba(233, 29, 34, 0) 0%, #E91D22 100%);
+}
+
+.nav-link:hover {
+  color: #F4F7FB;
+}
+
+.nav-link:hover::after {
+  height: 40px;
+}
+
+.nav-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-social svg {
+  cursor: pointer;
+  margin-left: 16px;
+  width: 24px;
+}
+
+.nav-social svg path, .nav-social svg circle {
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.nav-social svg:hover path, .nav-social svg:hover circle {
+  fill: #F02A2F;
+  -webkit-transform: translate3d(0, -3px, 0);
+          transform: translate3d(0, -3px, 0);
+}
 /*# sourceMappingURL=style.css.map */
