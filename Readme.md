@@ -22,7 +22,10 @@
 
 <h2>🕸️ Sobre o Projeto</h2>
 
-<p> Descrição sobre o projeto </p>
+<p> Projeto do Site Web do jogo Spiderman - Miles Morales para PS5, site desenvolvido utilizando html, scss e javascript, totalmente responsivo, com um visual de encher os olhos e movimentos fluídos.</p>
+
+---
+</br>
 
 <h3>📚 Linguagens / Frameworks / Bibliotecas</h3>
 
@@ -47,6 +50,24 @@
 
 <h2>🖼️ Imagens do Projeto</h2>
 
-<div align="center">
-
+<div align="center" >
+  <img src="img/project.png" width="80000px"/>
 </div>
+
+</br>
+
+<h3> 🎲 Rodando o Projeto</h3>
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/brunoemferreira/FrontWeek-Spider-man-Project.git
+
+# Acesse a pasta do projeto
+$ cd FrontWeek-Spider-man-Project
+
+# execute o arquivo
+./index.html
+```
+
+---
+⌨️ com ❤️ por [Bruno Eduardo](https://gist.github.com/brunoemferreira) 😊
