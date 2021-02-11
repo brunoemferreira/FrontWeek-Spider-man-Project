@@ -382,6 +382,103 @@ header {
   }
 }
 
+.logo-spiderman {
+  fill: transparent;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  -webkit-animation: logo-spiderman 12s ease infinite alternate;
+          animation: logo-spiderman 12s ease infinite alternate;
+}
+
+.logo {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform-box: fill-box;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+@-webkit-keyframes logo-spiderman {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 0.3;
+    stroke-dasharray: 100 0;
+    fill: transparent;
+  }
+  60%, 100% {
+    stroke-width: 0;
+    fill: #E5E9EF;
+  }
+}
+
+@keyframes logo-spiderman {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 0.3;
+    stroke-dasharray: 100 0;
+    fill: transparent;
+  }
+  60%, 100% {
+    stroke-width: 0;
+    fill: #E5E9EF;
+  }
+}
+
+.line1 {
+  -webkit-animation: line 7s ease infinite alternate;
+          animation: line 7s ease infinite alternate;
+}
+
+.line2 {
+  -webkit-animation: line 4s ease .7s infinite alternate;
+          animation: line 4s ease .7s infinite alternate;
+}
+
+.line3 {
+  -webkit-animation: line 6s ease 2s infinite alternate;
+          animation: line 6s ease 2s infinite alternate;
+}
+
+.line4 {
+  -webkit-animation: line 5s ease infinite alternate;
+          animation: line 5s ease infinite alternate;
+}
+
+@-webkit-keyframes line {
+  0% {
+    stroke-dasharray: 200 50;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 500 5;
+    stroke-dashoffset: 1000;
+  }
+}
+
+@keyframes line {
+  0% {
+    stroke-dasharray: 200 50;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 500 5;
+    stroke-dashoffset: 1000;
+  }
+}
+
 .s-0 {
   margin: 0;
   padding: 0;
