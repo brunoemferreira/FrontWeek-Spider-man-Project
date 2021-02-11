@@ -4,7 +4,16 @@
 </div>
 
 <h1> FrontWeek - Spiderman Project</h1>
+<!-- ************************************* Baadges ********************************************* -->
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/FrontWeek-Spider-man-Project?color=%2304D361">
 
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/brunoemferreira/FrontWeek-Spider-man-Project">
+
+  <a href="https://github.com/tgmarinho/nlw1/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/FrontWeek-Spider-man-Project">
+  </a>
+</p>
 <h2>Sobre o Projeto</h2>
 
 <h3>Linguagens / Frameworks / Bibliotecas</h3>
